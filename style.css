@@ -1,0 +1,229 @@
+@font-face {
+    font-family: Montserrat-regular;
+    src: url(fonts/Montserrat-Regular.otf)
+}
+@font-face {
+    font-family: Montserrat-bold;
+    src: url(fonts/Montserrat-Bold.otf);
+}
+@font-face {
+    font-family: Couture-Bold;
+    src: url(fonts/couture-bld.otf)
+}
+@font-face {
+    font-family: PT_Serif-regular;
+    src: url(fonts/PTSerif-Regular.ttf)
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.header {
+    width: 1200px;
+    height: 687px;
+    background: #dd2211;
+    background: url(png/bg.png);
+    margin: 0 auto;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+li a {
+    padding-left: 40px;
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat-regular;
+    font-size: 18px;
+    padding: 12px
+}
+li a:hover {
+    width: 85px;
+    height: 37px;
+    background-color: #130e27;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 18px;
+}
+.header_text {
+    color: white;
+    padding-left: 105px;
+}
+.header_text p {
+    width: 460px;
+    font-family: PT_Serif-regular;
+}
+.header_text h2 {
+    font-family: Couture-Bold;
+    font-size: 90px;
+    line-height: 17px;
+}
+.colort {
+    color: #130e27;
+}
+.services {
+    width: 1200px;
+    height: 482px;
+    margin: 0 auto;
+}
+.uptext {
+    display: flex;
+    font-family: Couture-Bold;
+    font-size: 50px;
+    padding-left: 105px;
+}
+.redcolor {
+    color: #c62314;
+}
+.defaultcolor {
+    color: #130e27;
+    padding-left: 20px;
+}
+.items {
+    width: 994px;
+    height: 245px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.item {
+    width: 183px;
+    height: 235px;
+    font-family: PT_Serif-regular;
+    align-items: center;
+}
+.item p {
+    text-align: center;
+}
+.pricing {
+    width: 1200px;
+    height: 734px;
+    margin: 0 auto;
+    background-color: #efefef;
+}
+.story {
+    width: 1200px;
+    height: 119px;
+    margin: 0 auto;
+    background-color: #130e27;
+    display: flex;
+
+}
+.story p {
+    font-family: PT_Serif-regular;
+    color: white;
+    font-size: 20px;
+    padding-left: 104px;
+    width: 639px;
+
+}
+.button {
+    width: 269px;
+    height: 64px;
+    background-color: #c62314;
+    border-radius: 6px;
+    margin: 30px auto 0px auto;
+}
+.button p {
+    font-family: Montserrat-regular;
+    width: 269px;
+    height: 64px;
+    padding-right: 60px;
+    padding-left: 75px;
+}
+.button:hover {
+    background-color: #ef5b4d;
+    cursor: pointer;
+}
+.headprice {
+    font-family: Montserrat-bold;
+    font-size: 50px;
+    text-align: center;
+    color: #130e27;
+    margin: 0 auto;
+    padding-top: 61px;
+    padding-bottom: 61px;
+}
+.cards {
+    width: 996px;
+    height: 392px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.card {
+    width: 319px;
+    height: 391px;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+}
+.hr {
+    width: 8px;
+    size: 2px;
+}
+.button_price {
+    width: 205px;
+    height: 50px;
+    background-color: #130e27;
+    border-radius: 3px;
+    margin: 33px auto 0 auto;
+}
+.button_price p {
+    font-family: Montserrat-regular;
+    font-size: 22px;
+    color: white;
+    padding-top: 20px;
+}
+.name {
+    font-family: PT-serif_regular;
+    font-size: 22px;
+    color: #130e27;
+}
+.price {
+    font-family: Montserrat-bold;
+    font-size: 60px;
+    color: #c62314;
+}
+.describe {
+    font-family: PT-serif_regular;
+    font-size: 20px;
+    line-height: 9px;
+    color: #130e27;
+}
+.button_price:hover {
+    background-color: #c62314;
+    cursor: pointer;
+}
+.end {
+    width: 1200px;
+    height: 188px;
+    background-color: #130e27;
+    margin: 0 auto;
+}
+.footer_text {
+    width: 1011px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+.footer_text p {
+    font-family: PT-serif_regular;
+    font-size: 20px;
+    color: white;
+}
+.redcol {
+    color: #c62314
+}
